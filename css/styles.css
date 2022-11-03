@@ -1,0 +1,224 @@
+:root {
+  --first-color: #2196f3;
+  --second-color: #212121;
+  --third-color: black;
+  --fourth-color: #757575;
+  --fifth-color: rgba(255, 255, 255, 0.6);
+  --sixth-color: #2f303a;
+  --seventh-color: #ffffff;
+  --eight-color: #e5e5e5;
+  --ninth-color: #757575;
+  --tenth-color: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--second-color);
+  background-color: var(--seventh-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--third-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.color-logo {
+  color: var(--first-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.header-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--second-color);
+  text-decoration: none;
+}
+
+.header-item:hover {
+  color: var(--first-color);
+}
+
+.header-item:focus {
+  color: var(--first-color);
+}
+
+.mail-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--fourth-color);
+  text-decoration: none;
+}
+
+.mail-header:hover {
+  color: var(--first-color);
+}
+
+.mail-header:focus {
+  color: var(--first-color);
+}
+
+.number-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--fourth-color);
+  text-decoration: none;
+}
+
+.number-header:hover {
+  color: var(--first-color);
+}
+
+.number-header:focus {
+  color: var(--first-color);
+}
+
+.topic-container {
+  background-color: var(--sixth-color);
+}
+
+.topic {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--seventh-color);
+}
+
+.main-button {
+  background-color: var(--first-color);
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  color: var(--seventh-color);
+  border-radius: 4px;
+  border: var(--sixth-color);
+  cursor: pointer;
+}
+
+.list-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--second-color);
+}
+
+.list-content {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--ninth-color);
+}
+
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--second-color);
+}
+
+.menu-button {
+  font-weight: 500;
+  line-height: 1.6;
+  background-color: var(--tenth-color);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+.menu-button:hover {
+  background-color: var(--first-color);
+  color: var(--seventh-color);
+}
+
+.employees-section {
+  background: var(--tenth-color);
+}
+
+.section-item {
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+  color: var(--second-color);
+}
+
+.section-content {
+  line-height: 1.18;
+  text-align: center;
+  color: var(--ninth-color);
+}
+
+.bottom-of-the-page {
+  background-color: var(--sixth-color);
+}
+.bottom-of-the-page .logo {
+  color: var(--seventh-color);
+}
+
+.information {
+  font-style: normal;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--seventh-color);
+}
+
+.address-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--fifth-color);
+  text-decoration: none;
+}
+
+.address-footer:hover {
+  color: var(--first-color);
+}
+
+.section-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-color);
+}
+
+.section-name-content {
+  line-height: 1.88;
+  color: var(--ninth-color);
+}
+
+.current {
+  color: var(--first-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
